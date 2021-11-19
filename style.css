@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    
+}
+
+.button {
+    width: 80px;
+    transition: all .5s;
+    border: 2px solid transparent;
+}
+.button:hover{
+    border: 2px solid #136497;
+   
+}
+#red:hover{
+    border: 2px solid #b32116;
+    color: red;
+}
+#yellow:hover{
+    border: 2px solid #ddeb24;
+    color: rgb(161, 161, 55);
+}
+#green:hover{
+    border: 2px solid #3dbb03;
+    color: green;
+}
